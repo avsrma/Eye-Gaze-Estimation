@@ -4,7 +4,10 @@ Created on Thu Nov 28 20:58:57 2019
 
 @author: iamav
 """
-
+# Upsample in PosNet. 
+# No upsampling in PosUp. 
+# VGG19 in ImNet. 
+# Concatenate the output of these layers in an ensembled scheme.
 
 import torch.nn as nn
 import torchvision.models as models

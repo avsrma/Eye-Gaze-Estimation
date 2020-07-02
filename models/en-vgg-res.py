@@ -4,6 +4,7 @@ Created on Mon Oct 14 17:42:56 2019
 
 @author: iamav
 """
+# Ensemble VGG19 and Resnet50 
 
 import torch.nn as nn
 import torchvision.models as models

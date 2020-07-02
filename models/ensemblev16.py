@@ -5,6 +5,7 @@ Created on Tue Oct 22 17:15:05 2019
 @author: iamav
 """
 
+# Ensemble VGG16 and LeNet
 import torch.nn as nn
 import torchvision.models as models
 import torch.nn.functional as F

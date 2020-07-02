@@ -1,3 +1,4 @@
+### LR scheduler experiments
 python -u main.py --arch inception --dataset data --test_id 00 --outdir results/inception/00 --batch_size 128 --epochs 25 --tensorboard --tensorboard_images --tensorboard_parameters
 
 python -u main.py --arch inception --dataset data --test_id 01 --outdir results/inception/01 --batch_size 128 --epochs 25 --tensorboard --tensorboard_images --tensorboard_parameters

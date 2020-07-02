@@ -16,6 +16,9 @@ $ python -u main.py --arch lenet --dataset data --test_id 0 --outdir results/00
 $ python -u main.py --arch lenet --dataset data --test_id 0 --outdir results/lenet/00 --batch_size 32 --base_lr 0.01 --momentum 0.9 --nesterov True --weight_decay 1e-4 --epochs 40 --milestones '[30, 35]' --lr_decay 0.1
 ```
 
+##
+This work explores various parameters, lr schedulers, deep neural architectures, ensembling, and a mask-based approach of using upsampled gaze vectors for appearance based gaze estimation on the MPIIGaze dataset. 
+
 ## References
 
 * Xucong Zhang and Yusuke Sugano and Mario Fritz and Bulling, Andreas, "Appearance-based Gaze Estimation in the Wild," Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015 [arXiv:1504.02863]( https://arxiv.org/abs/1504.02863 ), [Project Page]( https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild/ )

@@ -1,0 +1,11 @@
+# folders
+old_runs/
+MPIIGaze/
+images/
+data/
+runs/
+results/
+
+# compressed files
+*.gz
+*.zip

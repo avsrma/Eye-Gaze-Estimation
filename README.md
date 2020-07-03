@@ -2,7 +2,8 @@
 
 ## Docker Image
 
-```docker pull kroniidvul/pytorch_mpiigaze:latest
+```
+docker pull kroniidvul/pytorch_mpiigaze:latest
 ```
 
 ## Download the dataset and preprocess it

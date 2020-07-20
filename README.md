@@ -1,4 +1,4 @@
-# mpiigaze_project
+# Eye-gaze estimation in PyTorch
 
 ## Docker Image
 

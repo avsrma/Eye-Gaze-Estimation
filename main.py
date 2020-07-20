@@ -203,9 +203,9 @@ def test(epoch, model, criterion, test_loader, config, writer):
         poses = poses.cuda()
         gazes = gazes.cuda()
         
-        print(len(poses))
+#         print(len(poses))
 #        print('poses shape: ', poses.shape)
-        #print(poses[0])
+
 #        print( 'im shape: ' , images.shape)
         #print(images[0])
 

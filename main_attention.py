@@ -229,7 +229,7 @@ def test(epoch, encoder, decoder, criterion, test_loader, config, writer):
 
 #        captions_train = val_captions[:, :val_captions.shape[1]-1].to(device)
         poses_test = poses.flatten()    #poses[:, poses.shape[1]-1].cuda()
-        print(poses_test)
+#         print(poses_test)
         
         with torch.no_grad():
             features = encoder(images)

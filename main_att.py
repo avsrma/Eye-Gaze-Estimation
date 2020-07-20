@@ -213,7 +213,7 @@ def test(epoch, model, criterion, test_loader, config, writer):
         gazes = gazes.cuda()
         #poses_test = poses[:, poses.shape[1]-1].cuda()
         poses_test = poses.flatten()
-        print('poses shape: ', poses_test.size())
+#         print('poses shape: ', poses_test.size())
 #        print(poses[0])
         
 #        print( 'im shape: ' , images.shape)

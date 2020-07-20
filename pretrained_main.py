@@ -177,9 +177,9 @@ def test(epoch, model, criterion, test_loader):
         poses = poses.cuda()
         gazes = gazes.cuda()
         
-        print('poses shape: ', poses.shape)     #"""### [64,2] """
+#         print('poses shape: ', poses.shape)     #"""### [64,2] """
 #        print(poses[0])
-        print( 'im shape: ' , images.shape)     #""" ### [64,1,36,60] """
+#         print( 'im shape: ' , images.shape)     #""" ### [64,1,36,60] """
 #        print(images[0])
 #        print(images.shape)
 #        input_cat = torch.cat((images, poses))

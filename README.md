@@ -1,9 +1,13 @@
 # Eye-gaze estimation in PyTorch
 
-## Docker Image
-
+## Docker
+Pull the image from Docker Hub. It contains all the required packages. 
 ```
 docker pull kroniidvul/pytorch_mpiigaze:latest
+```
+Run the container interactively.
+```
+docker run -it --rm kroniidvul/pytorch_mpiigaze /bin/bash
 ```
 
 ## Download the dataset and preprocess it
@@ -19,7 +23,7 @@ $ python preprocess_data.py --dataset MPIIGaze --outdir data
 
 ```
 $ python -u main.py --arch lenet --dataset data --test_id 0 --outdir results/00
-$ python -u main.py --arch lenet --dataset data --test_id 0 --outdir results/lenet/00 --batch_size 32 --base_lr 0.01 --momentum 0.9 --nesterov True --weight_decay 1e-4 --epochs 40 --milestones '[30, 35]' --lr_decay 0.1
+$ python -u main.py --arch lenet --dataset data --test_id 0 --outdir results/lenet/00 --batch_size 32 --base_lr 0.01 --momentum 0.9 --nesterov True --weight_decay 1e-4 --epochs 40 --milestones '[30, 35]' --lr_decay 0.1 
 ```
 
 ## Project
